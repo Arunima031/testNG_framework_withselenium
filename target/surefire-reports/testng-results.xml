@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="43599" started-at="2022-12-01T16:39:04Z" finished-at="2022-12-01T16:39:47Z">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="submitOrder" class="org.example.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="Error validation">
+        <method signature="ErrorValidationTest.loggingErrorValidation()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="loggingErrorValidation" class="org.example.tests.ErrorValidationTest"/>
+      </group> <!-- Error validation -->
+    </groups>
+    <test name="Error Validation" duration-ms="23306" started-at="2022-12-01T16:39:04Z" finished-at="2022-12-01T16:39:27Z">
+      <class name="org.example.tests.ErrorValidationTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="launchApplication" is-config="true" duration-ms="5520" started-at="2022-12-01T16:39:04Z" finished-at="2022-12-01T16:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="productErrorValidation()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="productErrorValidation" duration-ms="13582" started-at="2022-12-01T16:39:09Z" finished-at="2022-12-01T16:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="closeBrowser" is-config="true" duration-ms="842" started-at="2022-12-01T16:39:23Z" finished-at="2022-12-01T16:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="launchApplication" is-config="true" duration-ms="2295" started-at="2022-12-01T16:39:24Z" finished-at="2022-12-01T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="loggingErrorValidation()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="loggingErrorValidation" duration-ms="378" started-at="2022-12-01T16:39:26Z" finished-at="2022-12-01T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingErrorValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.tests.ErrorValidationTest@13acb0d1]" name="closeBrowser" is-config="true" duration-ms="663" started-at="2022-12-01T16:39:26Z" finished-at="2022-12-01T16:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.example.tests.ErrorValidationTest -->
+    </test> <!-- Error Validation -->
+    <test name="Submit order" duration-ms="43599" started-at="2022-12-01T16:39:04Z" finished-at="2022-12-01T16:39:47Z">
+      <class name="org.example.tests.SubmitOrderTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="launchApplication" is-config="true" duration-ms="4453" started-at="2022-12-01T16:39:04Z" finished-at="2022-12-01T16:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="submitOrder" duration-ms="14546" started-at="2022-12-01T16:39:08Z" data-provider="getData" finished-at="2022-12-01T16:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hello@123, email=graham.bell@yopmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="closeBrowser" is-config="true" duration-ms="803" started-at="2022-12-01T16:39:23Z" finished-at="2022-12-01T16:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="launchApplication" is-config="true" duration-ms="3175" started-at="2022-12-01T16:39:24Z" finished-at="2022-12-01T16:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="submitOrder" duration-ms="14947" started-at="2022-12-01T16:39:27Z" data-provider="getData" finished-at="2022-12-01T16:39:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hello@123, email=rosanna.bell@yopmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2022-12-01T16:39:42Z" finished-at="2022-12-01T16:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="launchApplication" is-config="true" duration-ms="3205" started-at="2022-12-01T16:39:43Z" finished-at="2022-12-01T16:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="checkOrders()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="checkOrders" duration-ms="843" started-at="2022-12-01T16:39:46Z" depends-on-methods="org.example.tests.SubmitOrderTest.submitOrder" finished-at="2022-12-01T16:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrders -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.tests.SubmitOrderTest@691a7f8f]" name="closeBrowser" is-config="true" duration-ms="674" started-at="2022-12-01T16:39:47Z" finished-at="2022-12-01T16:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.example.tests.SubmitOrderTest -->
+    </test> <!-- Submit order -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

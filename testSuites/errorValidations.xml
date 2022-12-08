@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel='tests'  name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Error validation"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="org.example.testComponents.Ilisteners"></listener>
+    </listeners>
+
+    <test name="Submit order">
+        <classes>
+        <class name="org.example.tests.SubmitOrderTest">
+        </class>
+        </classes>
+    </test>
+    <test name="Error Validation">
+        <classes>
+            <class name="org.example.tests.ErrorValidationTest">
+            </class>
+        </classes>
+    </test>
+</suite>
